@@ -54,3 +54,18 @@ references invoices(id),
 	
 add foreign key(treatment_id)
 references treatments(id);
+
+
+
+create table treatment_medical_history (
+	id int primary key GENERATED ALWAYS AS IDENTITY,
+	medical_history_id int,
+	treatment_id int,
+	foreign key(medical_history_id) references medical_history(id),
+	foreign key(treatment_id) references treatments(id)
+);
+
+create index patient_id_idx on  medical_history(patient_id);
+create index medical_history_id_idx on  invoices(medical_history_id);
+create index invoice_id_idx on  invoice_items(invoice_id, treatment_id);
+create index treatment_medical_history_id_idx on  treatment_medical_history(medical_history_id, treatment_id);
