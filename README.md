@@ -59,7 +59,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [vet_clinic] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+<!-- > Describe your project in 1 or 2 sentences. -->
 
 **[your_project__name]** is a...
 
@@ -67,8 +67,8 @@ After you're finished please remove all the comments and instructions!
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
+<!-- > Describe the tech stack and include only the relevant sections that apply to your project.
+ -->
 <details>
   <summary>Client</summary>
   <ul>
@@ -94,8 +94,8 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
+<!-- > Describe between 1-3 key features of the application.
+ -->
 - [ ] **[PostgreSQL DataBase]**
 - [ ] **[PostgreSQL Table]**
 
@@ -115,8 +115,8 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
+<!-- > Describe how a new developer could make use of your project.
+ -->
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
@@ -190,8 +190,8 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
+<!-- > Mention all of the collaborators of this project.
+ -->
 👤 **Marwan**
 
 - GitHub: [@marwandev](https://github.com/marwandev)
@@ -209,8 +209,8 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
+<!-- > Describe 1 - 3 features you will add to the project.
+ -->
 - [ ] **[PostgreSQL DataBase]**
 - [ ] **[PostgreSQL Queries]**
 
@@ -230,7 +230,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
+<!-- > Write a message to encourage readers to support your project -->
 
 If you like this project, kindly leave a comment below and share it with someone who enjoys coding! Coding is all about continuous learning and allowing yourself to be a beginner. Keep going!
 
@@ -241,7 +241,7 @@ If you like this project, kindly leave a comment below and share it with someone
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+<!-- > Give credit to everyone who inspired your codebase. -->
 
 I'm thankful to Microverse for providing a study platform which guided me through this project and to my coding partners at Microverse for the collaborative effort.
 
@@ -252,7 +252,7 @@ I'm thankful to Microverse for providing a study platform which guided me throug
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+<!-- > Add at least 2 questions new developers would ask when they decide to use your project. -->
 
 - **[Question_1] What is postgresql**
 
