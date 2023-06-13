@@ -40,3 +40,17 @@ create table invoice_items (
     invoice_id int,
     treatment_id int
 );
+
+
+create table treatments (
+    id int primary key GENERATED ALWAYS AS IDENTITY,
+    type varchar(250),
+    name varchar(250)
+);
+
+alter table invoice_items
+add foreign key(invoice_id)
+references invoices(id),
+	
+add foreign key(treatment_id)
+references treatments(id);
